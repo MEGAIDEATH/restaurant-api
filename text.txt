@@ -1,0 +1,12 @@
+*Product Domain*
+Catagory 
+Product name
+Product price 
+
+*Invoice Domain*
+Ordered Product
+Quantity
+Order number
+Date & Time
+Total price
+Tax 15%
