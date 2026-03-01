@@ -77,7 +77,9 @@ app.post('/api/orders', (req, res) => {
 
   res.status(201).json(newOrder);
 });
-
+app.get('/api/orders', (req, res) => {
+  res.json(orders);
+});
 app.listen(PORT, () => {
     console.log(`Server running on http://localhost:${PORT}`); //node index.js to run the server
 });
